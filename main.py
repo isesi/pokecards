@@ -311,15 +311,4 @@ if __name__ == '__main__':
     print()
     print(g.analyzeprice(tcard.id))
     g.visualize(tcard, list(tcard.getneighbours().keys()))
-    import python_ta
-
-    python_ta.check_all(config={
-        'extra-imports': [
-            "random", "PIL.Image", "itertools", "io", "networkx",
-            "matplotlib.pyplot", "collections", "typing", "requests",
-            "datetime", "matplotlib.image"
-        ],
-        'allowed-io': ['analyzeprice', 'input', 'print', 'output'],
-        'max-line-length': 120,
-        'disable': ['R1702']
-    })
+    
