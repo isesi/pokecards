@@ -1,0 +1,14 @@
+# CSC111 Project 2: Issei, Jada, Theo
+
+# Testing and code checking
+python-ta~=2.9.1
+
+# Graphics and data visualization
+matplotlib~=3.10.1
+networkx~=3.3
+Pillow~=10.2.0  # PIL (Python Imaging Library) comes from Pillow
+dearpygui
+
+# Data collection and wrangling
+requests~=2.32.3
+numpy
